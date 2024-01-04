@@ -1,7 +1,8 @@
 repo_name: donaldww/prom_ex
 report_id: c5da3c90910a15cda3205b828110b976
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:59:18+00:00'
+timestamp: '2024-01-04T15:02:27+00:00'
 requested_by: akoutmos
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/donaldww/prom_ex
   detection_source: Repo Metadata
 - name: Elixir
   description: Dynamic, functional language designed for building scalable and maintainable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1974/drop.png
+  detection_source_url: https://github.com/donaldww/prom_ex
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/donaldww/prom_ex
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
   detection_source: example_applications/web_app/mix.exs
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -57,6 +62,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/donaldww/prom_ex
   detection_source: Repo Metadata
 - name: Phoenix Framework
   description: Most web frameworks make you choose between speed and a productive
@@ -68,7 +74,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/3262/-s9uoLIN.png
-  detection_source: mix.exs
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
   last_updated_by: Alexander Koutmos
   last_updated_on: 2021-10-13 19:52:28.000000000 Z
 - name: css-loader
@@ -80,6 +87,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-11-19 21:38:32.000000000 Z
@@ -91,6 +99,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
   detection_source: example_applications/web_app/mix.exs
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -104,8 +113,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
-  detection_source: example_applications/web_app/assets/package.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/.babelrc
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
 - name: Cowboy
@@ -117,7 +126,8 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/2738/1166740.png
-  detection_source: mix.exs
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:56:24.000000000 Z
 - name: ESLint
@@ -129,6 +139,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -140,6 +151,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/donaldww/prom_ex
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -149,6 +161,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/.github/workflows/main.yml
   detection_source: ".github/workflows/main.yml"
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-10-24 21:21:00.000000000 Z
@@ -162,6 +175,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/shared_docker/prometheus.yml
   detection_source: example_applications/shared_docker/prometheus.yml
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -173,6 +187,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
   detection_source: example_applications/web_app/mix.exs
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -186,8 +201,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: example_applications/web_app/assets/package-lock.json
-  detection_source: example_applications/web_app/assets/webpack.config.js
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
 - name: npm
@@ -198,6 +213,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
   detection_source: example_applications/web_app/mix.exs
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -210,7 +226,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-05-28 01:25:29.000000000 Z
@@ -223,12 +239,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/donaldww/prom_ex
   detection_source: Repo Metadata
 - name: ecto
   website_url: https://hexdocs.pm/ecto/Ecto.html
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4397/no-img-open-source.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/mix.exs
   detection_source: mix.exs
   last_updated_by: Alexander Koutmos
   last_updated_on: 2021-12-22 22:29:05.000000000 Z
@@ -242,7 +260,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -256,7 +274,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -270,7 +288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-11-19 21:38:32.000000000 Z
@@ -284,7 +302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-05-28 01:25:29.000000000 Z
@@ -298,7 +316,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -312,7 +330,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16878/default_9a6b7a8dd0c513232652c0823a0be4346af570d1.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-03-14 22:27:19.000000000 Z
@@ -326,7 +344,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -340,7 +358,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17765/default_abcc2eea82e62d338a749f334647866df76198b8.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-06-18 18:59:20.000000000 Z
@@ -354,7 +372,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-11-19 21:38:32.000000000 Z
@@ -368,7 +386,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-06-18 18:59:20.000000000 Z
@@ -382,7 +400,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-05-27 16:53:19.000000000 Z
@@ -415,7 +433,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-02-10 02:10:21.000000000 Z
@@ -429,7 +447,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-02-10 02:10:21.000000000 Z
@@ -444,7 +462,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17203/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2021-06-18 18:59:20.000000000 Z
@@ -458,7 +476,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
@@ -472,7 +490,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: example_applications/web_app/assets/package-lock.json
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
   detection_source: example_applications/web_app/assets/package.json
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
