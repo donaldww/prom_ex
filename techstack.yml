@@ -2,7 +2,7 @@ repo_name: donaldww/prom_ex
 report_id: c5da3c90910a15cda3205b828110b976
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:18:12+00:00'
+timestamp: '2024-02-29T18:11:17+00:00'
 requested_by: akoutmos
 provider: github
 branch: master
@@ -118,7 +118,7 @@ tools:
   last_updated_by: Alex Koutmos
   last_updated_on: 2020-08-09 02:19:39.000000000 Z
 - name: Cowboy
-  description: 'Small, fast, modular HTTP server written in Erlang. '
+  description: Small, fast, modular HTTP server written in Erlang.
   website_url: https://github.com/ninenines/cowboy
   license: ISC
   open_source: true
