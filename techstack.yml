@@ -1,0 +1,496 @@
+repo_name: donaldww/prom_ex
+report_id: c5da3c90910a15cda3205b828110b976
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:11:17+00:00'
+requested_by: akoutmos
+provider: github
+branch: master
+detected_tools_count: 36
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/donaldww/prom_ex
+  detection_source: Repo Metadata
+- name: Elixir
+  description: Dynamic, functional language designed for building scalable and maintainable
+    applications
+  website_url: http://elixir-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1974/drop.png
+  detection_source_url: https://github.com/donaldww/prom_ex
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/donaldww/prom_ex
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/donaldww/prom_ex
+  detection_source: Repo Metadata
+- name: Phoenix Framework
+  description: Most web frameworks make you choose between speed and a productive
+    environment. Phoenix gives you both.
+  website_url: http://www.phoenixframework.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/3262/-s9uoLIN.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
+  last_updated_by: Alexander Koutmos
+  last_updated_on: 2021-10-13 19:52:28.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-11-19 21:38:32.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/.babelrc
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: Cowboy
+  description: Small, fast, modular HTTP server written in Erlang.
+  website_url: https://github.com/ninenines/cowboy
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2738/1166740.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:56:24.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/donaldww/prom_ex
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-10-24 21:21:00.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/shared_docker/prometheus.yml
+  detection_source: example_applications/shared_docker/prometheus.yml
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.41.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/mix.exs
+  detection_source: example_applications/web_app/mix.exs
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-05-28 01:25:29.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/donaldww/prom_ex
+  detection_source: Repo Metadata
+- name: ecto
+  website_url: https://hexdocs.pm/ecto/Ecto.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4397/no-img-open-source.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/mix.exs
+  detection_source: mix.exs
+  last_updated_by: Alexander Koutmos
+  last_updated_on: 2021-12-22 22:29:05.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.12.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-11-19 21:38:32.000000000 Z
+- name: browserslist
+  description: Share target browsers between different front-end tools
+  package_url: https://www.npmjs.com/browserslist
+  version: 4.16.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-05-28 01:25:29.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: elliptic
+  description: EC cryptography
+  package_url: https://www.npmjs.com/elliptic
+  version: 6.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16878/default_9a6b7a8dd0c513232652c0823a0be4346af570d1.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-03-14 22:27:19.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: normalize-url
+  description: Normalize a URL
+  package_url: https://www.npmjs.com/normalize-url
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17765/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-06-18 18:59:20.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-11-19 21:38:32.000000000 Z
+- name: optimize-css-assets-webpack-plugin
+  description: A Webpack plugin to optimize \ minimize CSS assets
+  package_url: https://www.npmjs.com/optimize-css-assets-webpack-plugin
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-06-18 18:59:20.000000000 Z
+- name: postcss
+  description: Tool for transforming styles with JS plugins
+  package_url: https://www.npmjs.com/postcss
+  version: 7.0.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-05-27 16:53:19.000000000 Z
+  vulnerabilities:
+  - name: PostCSS line return parsing error
+    cve_id: CVE-2023-44270
+    cve_url: https://github.com/advisories/GHSA-7fh5-64p2-3v2j
+    detected_date: Oct 4
+    severity: moderate
+    first_patched: 8.4.31
+  - name: Regular Expression Denial of Service in postcss
+    cve_id: CVE-2021-23382
+    cve_url: https://github.com/advisories/GHSA-566m-qj78-rww5
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 7.0.36
+  - name: Regular Expression Denial of Service in postcss
+    cve_id: CVE-2021-23368
+    cve_url: https://github.com/advisories/GHSA-hwj9-h5mp-3pm3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 7.0.36
+- name: sass
+  description: A pure JavaScript implementation of Sass
+  package_url: https://www.npmjs.com/sass
+  version: 1.32.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-02-10 02:10:21.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-02-10 02:10:21.000000000 Z
+- name: serialize-javascript
+  description: Serialize JavaScript to a superset of JSON that includes regular expressions
+    and functions
+  package_url: https://www.npmjs.com/serialize-javascript
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17203/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2021-06-18 18:59:20.000000000 Z
+- name: terser-webpack-plugin
+  description: Terser plugin for webpack
+  package_url: https://www.npmjs.com/terser-webpack-plugin
+  version: 2.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/donaldww/prom_ex/blob/master/example_applications/web_app/assets/package-lock.json
+  detection_source: example_applications/web_app/assets/package.json
+  last_updated_by: Alex Koutmos
+  last_updated_on: 2020-08-09 02:19:39.000000000 Z
